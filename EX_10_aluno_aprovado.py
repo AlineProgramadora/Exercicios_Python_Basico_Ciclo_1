@@ -16,4 +16,9 @@
 # Aluno aprovado? False
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+# Verifico se o aluno foi aprovado 📚✅
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+# Verifico se a média é maior que 7 e se as notas são diferentes de 0 ⛔
+aprovado = (nota1 > 0 and nota2 > 0) and ((nota1 + nota2) / 2 > 7)
+print("Aluno aprovado? 🏆", aprovado)

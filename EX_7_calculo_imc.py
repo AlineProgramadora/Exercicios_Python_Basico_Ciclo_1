@@ -12,3 +12,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+# Cálculo do IMC
+
+altura = float(input("Digite sua altura: "))
+peso = float(input("Digite seu peso: "))
+
+# calculando o imc
+imc = peso / (altura ** 2)
+print("O seu IMC é:", round(imc, 2))
+

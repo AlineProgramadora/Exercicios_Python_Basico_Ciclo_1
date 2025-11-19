@@ -17,4 +17,19 @@
 # | ------------------------------ |
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+print("|----------------------------------|")
+print("|-------- CADASTRO ----------------|")
+print("|----------------------------------|")
+cadastros=[]
+nome=input("DIGITE O NOME:")
+idade=input("DIGITE A SUA IDADE:")
+email=input("DIGITE O SEU EMAIL:")
+senha=input("DIGITE A SUA SENHA:")
+#DADOS CADASTRADOS
+print("\n--- DADOS CADASTRADOS ---")
+cadastros.append(nome)
+cadastros.append(idade)
+cadastros.append(email)
+cadastros.append(senha)
+for pessoa in cadastros:
+    print(pessoa)

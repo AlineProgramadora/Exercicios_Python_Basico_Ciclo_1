@@ -10,4 +10,10 @@
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
 
+cotacao = float(input("Digite a cotação do dollar: "))
+valor_dolar = float(input("Digite o valor em dollar a ser convertido para real: "))
+valor_real = cotacao * valor_dolar
+print("O valor em reais é:", valor_real)
+
+#Digite a cotação do dollar: 5.60 ai  Digito o valor em dollar a ser convertido para real: 100 ai O valor em reais é: 560.0
 

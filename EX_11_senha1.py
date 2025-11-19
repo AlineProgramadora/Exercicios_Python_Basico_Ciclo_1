@@ -14,4 +14,13 @@
 # Senha correta
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+# Sistema de verificação da  senha 🔑
+senha_correta = "AC12"  # Senha pré-definida no código
+senha_informada = input("Digite a senha: ")
+# Verificando se a senha está correta ou incorreta aqui
+senha_valida = senha_informada == senha_correta
+# Exibindo o resultado 🔐
+if senha_valida:
+    print("Senha correta ✅")
+else:
+    print("Senha incorreta ❌")

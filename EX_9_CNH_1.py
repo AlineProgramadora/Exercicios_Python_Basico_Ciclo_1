@@ -13,4 +13,8 @@
 # Pode tirar carteira de motorista? False
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+# Verifico se pode tirar a CNH 🚗
+idade = int(input("Digite sua idade: "))
+# Verifico se a idade é maior ou igual a 18 🎉
+pode_tirar_cnh = idade >= 18
+print("Pode tirar carteira de motorista? 🛣️", pode_tirar_cnh)
